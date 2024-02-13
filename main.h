@@ -76,12 +76,5 @@ long int convert_number_size(long int num, int size);
 long int convert_unsigned_size(unsigned long int num, int size);
 int handle_char_write(char c, char buffer[],
         int flags, int width, int precision, int size);
-int write_numbr(int is_negative, int ind, char buffer[],
-	int flags, int width, int precision, int size);
-int write_unsigned(int is_negative, int ind,
-	char buffer[],
-	int flags, int width, int precision, int size);
-int write_pointr(char buffer[], int ind, int length,
-	int width, int flags, char padd, char extra_c, int padd_start)
 
 #endif
